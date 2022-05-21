@@ -1,15 +1,12 @@
 html{
     max-width: 1366px;
 }
-body{
-    background-color: red;
-}
 /*Encabezado*/
 header{
     width: 135rem;
     height: 6rem;
     margin: 2rem 2rem 0 2rem;
-    background-color: rgb(204, 197, 197);
+    background-color: rgba(203, 203, 203, 1);
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 }
@@ -21,28 +18,28 @@ header{
 .p1{
     width: 2rem;
     height: 2rem;
-    background-color: white;
+    background-color: rgba(242, 7, 7, 1);
     margin: 0 1rem 0 4rem;
     border-radius: 5rem;
 }
 .p2{
     width: 2rem;
     height: 2rem;
-    background-color: white;
+    background-color:  rgba(217, 177, 59, 1);
     margin: 0 1rem 0 0;
     border-radius: 5rem;
 }
 .p3{
     width: 2rem;
     height: 2rem;
-    background-color: white;
+    background-color: rgba(8, 92, 166, 1);
     margin: 0 2rem 0 0;
     border-radius: 5rem;
 }
 .p4{
     width: 100rem;
     height: 4rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     margin: 1rem 4rem 0 9rem;
     border-radius: 0.5rem;
 }
@@ -50,18 +47,31 @@ header{
     width: 135rem;
     height: 6rem;
     margin: 0 2rem 0 2rem;
-    padding: 0.5rem 0 0 0;
     background-color: rgb(40, 36, 58);
 }
 .recuadro{
-    width: 10rem;
-    height: 5rem;
-    margin: 0 0 1rem 115rem;
-    padding: 0 0 0 0;
-    background-color: rgb(196, 37, 37);
+    width: 15rem;
+    height: 3rem;    
+    margin: 0 0 0 90rem;
     border-radius: 0.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
-
+.e2 img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem 1rem 0 130rem; 
+}
+.recuadro p{
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 1rem 0;
+    margin: 1rem 0 3rem 45rem;
+}
 /*parte gris grande como de video*/
 /*fondo blanco*/
 .fondo1{
@@ -69,25 +79,38 @@ header{
     height: 145rem;
     background-color: white;
     margin: 0 0 0 2rem;
-    padding: 2rem 0 0 2.3rem;
+    padding: 2rem 0 0 2rem;
 }
 .c1{
     width: 96rem;
     height: 40rem;
     background-color: rgb(211, 202, 202);
-    margin: 2rem 0 2rem 1rem;
+    margin: 2rem 0 2rem 0rem;
     display: flex;
     flex-direction: column;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
     border-radius: 1.5rem;
 }
+.c1 img{
+    width: 96rem;
+    height: 40rem;
+    border-radius: 1.5rem;
+}
 .c2{
-    width: 62rem;
-    height: 3.5rem;
-    background-color:  rgb(155, 141, 141);
-    border-radius: 0.5rem;
-    margin: 30rem 0 2rem 3rem;
+    width: 55rem;
+    height: 4rem;
+    background-color:rgba(70, 78, 93, 0.53);
+    border-radius: 2rem;
+    position: absolute;
+    margin: 35rem 1rem 5rem 2rem;
+    
+}
+.c2 h1{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    margin: 0.5rem 0 1rem 2rem;
 }
 /*barra larga gris*/
 aside{
@@ -108,7 +131,7 @@ aside{
     width: 23rem;
     height: 15rem;
     background-color: rgb(211, 202, 202);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     margin: 9rem 0 0 0;
 }
 .r11{
@@ -117,6 +140,12 @@ aside{
     border-right: 2rem solid rgb(211, 202, 202);
     border-bottom: 2rem solid transparent;
     margin: 5rem 0 0 0;
+}
+.r1 img{
+    width: 22rem;
+    height: 14rem;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
 }
 .alin2{
     display: flex;
@@ -127,7 +156,7 @@ aside{
     width: 23rem;
     height: 15rem;
     background-color: rgb(211, 202, 202);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     margin: 5rem 0 0 0;
 }
 .r22{
@@ -136,6 +165,12 @@ aside{
     border-right: 2rem solid rgb(211, 202, 202);
     border-bottom: 2rem solid transparent;
     margin: 5rem 0 0 0;
+}
+.r2 img{
+    width: 22rem;
+    height: 14rem;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
 }
 .alin3{
     display: flex;
@@ -146,7 +181,7 @@ aside{
     width: 23rem;
     height: 15rem;
     background-color: rgb(211, 202, 202);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     margin: 5rem 0 0 0;
 }
 .r33{
@@ -155,6 +190,12 @@ aside{
     border-right: 2rem solid rgb(211, 202, 202);
     border-bottom: 2rem solid transparent;
     margin: 5rem 0 0 0;
+}
+.r3 img{
+    width: 22rem;
+    height: 14rem;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
 }
 .alin4{
     display: flex;
@@ -165,7 +206,7 @@ aside{
     width: 23rem;
     height: 15rem;
     background-color: rgb(211, 202, 202);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     margin: 5rem 0 0 0;
 }
 .r44{
@@ -175,12 +216,25 @@ aside{
     border-bottom: 2rem solid transparent;
     margin: 5rem 0 0 0;
 }
+.r4 img{
+    width: 22rem;
+    height: 14rem;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
 .r5{
     width: 25rem;
     height: 22rem;
     background-color: rgb(211, 202, 202);
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     margin: 5rem 0 0 3rem;
+}
+.r5 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
 }
 .fondo2{
     width: 100rem;
@@ -192,25 +246,55 @@ aside{
     align-items: center;
 }
 .w1{
-    width: 100rem;
+    width: 45rem;
     height: 25rem;
     background-color: rgb(211, 202, 202);
     margin: 0rem 1rem 5rem 1rem;
     border-radius: 1rem;
 }
+.w1 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
+.w1 h2{
+    padding-left: 1rem;
+}
 .w2{
-    width: 100rem;
+    width: 45rem;
     height: 25rem;
     background-color: rgb(211, 202, 202);
     margin: 0rem 0 5rem 1rem;
     border-radius: 1rem;
 }
+.w2 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
+.w2 h2{
+    padding-left: 1rem;
+}
 .w3{
-    width: 100rem;
+    width: 45rem;
     height: 25rem;
     background-color: rgb(211, 202, 202);
     margin: 0rem 1rem 5rem 1rem;
     border-radius: 1rem;
+}
+.w3 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
+.w3 h2{
+    padding-left: 1rem;
 }
 .fondo3{
     width: 100rem;
@@ -222,25 +306,55 @@ aside{
     align-items: center;
 }
 .w4{ 
-    width: 100rem;
+    width: 31.5rem;
     height: 25rem;
     background-color: rgb(211, 202, 202);
     margin: 0rem 1rem 5rem 1rem;
     border-radius: 1rem;
+}
+.w4 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
+.w4{
+    padding-left: 1rem;
 }
 .w5{
-    width: 100rem;
+    width: 31.5rem;
     height: 25rem;
     background-color: rgb(211, 202, 202);
     margin: 0rem 1rem 5rem 1rem;
     border-radius: 1rem;
 }
+.w5 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem; 
+}
+.w5 h2{
+    padding-left: 1rem;
+}
 .w6{
-    width: 100rem;
+    width: 31.5rem;
     height: 25rem;
-    background-color: rgb(211, 202, 202);
+    background-color:rgb(211, 202, 202);
     margin: 0rem 1rem 5rem 1rem;
     border-radius: 1rem;
+}
+.w6 img{
+    width: 24rem;
+    height: 21rem;
+    object-fit: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 1.5rem;
+}
+.w6 h2{
+    padding-left: 1rem;
 }
 .fondo4{ 
     width: 55rem;
@@ -248,35 +362,26 @@ aside{
     margin: 0rem 0rem 0rem 2rem;
     padding: 4rem 0 0 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;  
 }
 .w7{
-    width: 25rem;
-    height: 100rem;
+    width: 26rem;
+    height: 20rem;
     background-color: rgb(211, 202, 202);
     margin: 0.5rem 0 5rem 0;
     border-radius: 1rem;
 }
-.l1{
-    width: 73rem;
-    height: 4rem;
-    background-color: gray;
-    margin: 1.5rem 0 0 27rem ;
-    border-radius: 0.4rem;
+.w7 img{
+    width: 26rem;
+    height: 20rem;
+    margin: 0 0.5rem 0 0;
+    border-radius: 1.5rem;
 }
-.l2{
-    width: 73rem;
-    height: 2rem;
-    background-color: rgb(190, 174, 174);
-    margin: 1.5rem 0 0 27rem ;
-    border-radius: 0.4rem;
+.contenido h1{
+    width: 70rem;
+    font-size: 2.8rem;
+    color: rgba(53, 53, 53, 1);
+    margin: 1.5rem 0 0 5rem;
 }
-.l3{
-    width: 15rem;
-    height: 2rem;
-    background-color: rgb(190, 174, 174);
-    margin: 1.5rem 0 0 27rem ;
-    border-radius: 0.4rem;
-} 
 
